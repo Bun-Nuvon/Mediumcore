@@ -1,0 +1,28 @@
+name: Mediumcore
+version: '${project.version}'
+main: com.bunnuvon.mediumcore.Mediumcore
+api-version: '1.20'
+prefix: Mediumcore
+load: STARTUP
+authors: [The Yule]
+description: Mediumcore is an easier version of hardcore Minecraft.
+website: https://bun-nuvon.com/mediumcore
+commands:
+  deaths:
+    description: See the number of deaths a player has. Omitting the player will return your number of deaths.
+    usage: /<command> [player]
+  hearts:
+    description: See the number of hearts a player has. Omitting the player will return your number of hearts.
+    usage: /<command> [player]
+  mediumcore:
+    description: Information about the Mediumcore plugin.
+    usage: /<command> [save|refresh]
+  redeem:
+    description: Redeem your heart containers for hearts.
+    usage: /<command>
+  revive:
+    description: Revive a player by sacrificing one of your own hearts.
+    usage: /<command> <player>
+  sethearts:
+    description: Sets a player's hearts.
+    usage: /<command> <player> [hearts]
